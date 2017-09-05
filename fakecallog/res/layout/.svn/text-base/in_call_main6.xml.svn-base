@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="50dip" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_no_photo" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_horizontal"
+            android:text="Incoming Call"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="y"
+            android:textSize="40dip" />
+
+        <TextView
+            android:id="@+id/textNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="x"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.3"
+        android:paddingLeft="7dip"
+        android:paddingRight="7dip" >
+
+        <com.anttek.widgets.OnOffSwitchView
+            android:id="@+id/onoff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff"
+            android:paddingBottom="4dip"
+            android:paddingLeft="7dip"
+            android:paddingRight="7dip"
+            android:paddingTop="4dip" />
+    </LinearLayout>
+
+</LinearLayout>

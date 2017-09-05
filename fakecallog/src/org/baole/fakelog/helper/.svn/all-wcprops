@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms_utils/!svn/ver/261/fakelog/trunk/fakecallog/src/org/baole/fakelog/helper
+END
+ContactHelperSdk5.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sms_utils/!svn/ver/42/fakelog/trunk/fakecallog/src/org/baole/fakelog/helper/ContactHelperSdk5.java
+END
+NotificationHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sms_utils/!svn/ver/234/fakelog/trunk/fakecallog/src/org/baole/fakelog/helper/NotificationHelper.java
+END
+LogHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sms_utils/!svn/ver/261/fakelog/trunk/fakecallog/src/org/baole/fakelog/helper/LogHelper.java
+END
+DBAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sms_utils/!svn/ver/42/fakelog/trunk/fakecallog/src/org/baole/fakelog/helper/DBAdapter.java
+END

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="version">
+        <item>Android 2.2</item>
+        <item>Samsung</item>
+        <item>Android 1.6</item>
+        <item>Fake Fake Fake</item>
+        <item>HTC </item>
+        <item>Sony Ericsson 1</item>
+        <item>Sony Ericsson 2</item>
+        <item>Sony Ericsson 3</item>
+        <item>Sony Ericsson 4</item>
+        <item>Sony Ericsson 5</item>
+        <item>Sony Ericsson 6</item>
+        <item>Android 4.0</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<LinearLayout android:layout_width="match_parent"
+		android:padding="5dip"
+		android:orientation="horizontal" android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2" android:gravity="center_horizontal">
+		<Button android:text="@string/call_log" android:id="@+id/action_calllog"
+			android:onClick="onClick" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"
+			style="@style/Button"
+			
+			android:layout_margin="2dip"/>
+		<Button android:text="@string/message" android:id="@+id/action_sms"
+			android:onClick="onClick" android:layout_width="wrap_content"
+			style="@style/Button"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" android:layout_margin="2dip"/>
+		<Button android:text="@string/pro" android:id="@+id/action_go_pro"
+			android:onClick="onClick" android:layout_width="wrap_content"
+			style="@style/Button"
+			android:layout_weight="1"
+			android:layout_height="wrap_content" android:drawableRight="@drawable/ic_market" android:layout_margin="2dip"/>
+
+	</LinearLayout>
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="0dip" android:layout_weight="1">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="wrap_content">
+
+			<LinearLayout android:layout_width="match_parent"
+				android:orientation="horizontal" android:layout_height="wrap_content">
+
+				<TextView android:layout_height="wrap_content"
+					android:text="@string/caller_id" android:layout_width="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/textView1" android:layout_gravity="center_vertical" />
+
+				<EditText android:id="@+id/edit_number"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:hint="phone no." android:layout_weight="1"
+					android:inputType="phone" android:lines="1">
+					<requestFocus></requestFocus>
+				</EditText>
+				<Button android:text="@string/pick" android:id="@+id/action_pick_number"
+				android:onClick="onClick" 
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			</LinearLayout>
+			<LinearLayout android:layout_width="match_parent"
+				android:orientation="horizontal" android:layout_height="wrap_content">
+				<TextView android:layout_height="wrap_content"
+					android:text="@string/name" android:layout_width="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/textView1" android:layout_gravity="center_vertical" />
+				<EditText android:id="@+id/text_name"
+					android:layout_height="wrap_content" android:hint="Caller, ex. Mr. Bean"
+					android:layout_width="match_parent" android:inputType="textPersonName"
+					android:gravity="center_horizontal" />
+			</LinearLayout>
+
+
+			<LinearLayout android:layout_width="match_parent"
+				android:orientation="vertical" android:layout_height="wrap_content"
+				android:id="@+id/linearLayout4">
+
+				<TextView android:layout_height="wrap_content"
+					android:text="@string/when" android:layout_width="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:id="@+id/textView2" android:layout_gravity="center_vertical" />
+				<LinearLayout android:layout_width="match_parent"
+					android:orientation="horizontal" android:layout_height="wrap_content"
+					android:id="@+id/linearLayout8">
+					<Button android:id="@+id/schedule_5s" android:layout_width="0dip"
+						android:text="5s" android:layout_height="wrap_content"
+						style="@style/Button"
+						android:onClick="onClick" android:layout_weight="1" />
+					<Button android:id="@+id/schedule_60s" android:layout_width="0dip"
+						android:text="60s" android:layout_height="wrap_content"
+						style="@style/Button"
+						android:onClick="onClick" 
+						android:layout_weight="1" />
+					<Button android:id="@+id/schedule_5min"
+						android:layout_width="0dip" android:text="5min" android:onClick="onClick"
+						style="@style/Button"
+						android:layout_height="wrap_content" android:layout_weight="1" />
+					<Button android:id="@+id/schedule_30min" android:onClick="onClick"
+						android:layout_width="0dip" android:text="30min"
+						style="@style/Button"
+						android:layout_height="wrap_content" android:layout_weight="1" />
+				</LinearLayout>
+
+				<LinearLayout android:layout_width="match_parent"
+					android:orientation="horizontal" android:layout_height="wrap_content"
+					android:id="@+id/linearLayout8">
+					<Button android:id="@+id/schedule_proximity"
+						android:layout_width="0dip" android:text="Prox. Sensor"
+						android:layout_height="wrap_content"
+						style="@style/Button"
+						android:onClick="onClick" android:layout_weight="1" />
+
+					<Button android:id="@+id/buttonCustom" android:layout_width="0dip"
+						android:text="Custom" android:layout_height="wrap_content"
+						style="@style/Button"
+						android:onClick="onClick" android:layout_weight="1" />
+				</LinearLayout>
+
+				<LinearLayout android:layout_width="match_parent"
+					android:orientation="horizontal" android:layout_height="wrap_content"
+					android:id="@+id/linearLayout9" android:visibility="gone">
+					<EditText android:id="@+id/edit_time"
+						android:layout_height="wrap_content" android:hint="8:30pm"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:clickable="true" android:focusable="false"
+						android:focusableInTouchMode="false" android:cursorVisible="false"
+						android:inputType="none" />
+					<EditText android:id="@+id/edit_date"
+						android:layout_height="wrap_content" android:hint="June 1, 2011"
+						android:layout_width="wrap_content" android:layout_weight="1"
+						android:clickable="true" android:focusable="false"
+						android:focusableInTouchMode="false" android:cursorVisible="false"
+						android:inputType="none" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<ViewSwitcher android:id="@+id/viewSwitcher1"
+				android:layout_width="match_parent" android:layout_height="wrap_content">
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:orientation="vertical">
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal">
+
+						<TextView android:layout_height="wrap_content"
+							android:text="@string/duration" android:layout_width="wrap_content"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:id="@+id/textView2" android:layout_gravity="center_vertical" />
+						<EditText android:id="@+id/edit_duration" android:hint="30 (in seconds)"
+							android:layout_height="wrap_content" android:layout_width="match_parent"
+							android:inputType="number"></EditText>
+
+					</LinearLayout>
+					<TextView android:layout_height="wrap_content"
+						android:text="@string/call_type" android:layout_width="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:id="@+id/textView2" android:layout_gravity="center_vertical"></TextView>
+					<RadioGroup android:id="@+id/callTypeGroup"
+						android:layout_height="wrap_content" android:orientation="horizontal"
+						android:layout_width="match_parent" android:gravity="center_vertical|center_horizontal|center">
+						<RadioButton android:layout_height="wrap_content"
+							android:layout_width="wrap_content" android:checked="true"
+							android:id="@+id/incomingCallRadio" android:text="@string/incoming"></RadioButton>
+						<RadioButton android:layout_height="wrap_content"
+							android:layout_width="wrap_content" android:id="@+id/outgoingCallRadio"
+							android:text="@string/outgoing" android:layout_marginLeft="5dip"></RadioButton>
+						<RadioButton android:layout_height="wrap_content"
+							android:layout_width="wrap_content" android:id="@+id/missedCallRadio"
+							android:text="Missed" android:layout_marginLeft="5dip"></RadioButton>
+					</RadioGroup>
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal">
+						<CheckBox android:text="@string/missed_call_notification"
+							android:id="@+id/check_call_notif" android:layout_width="0dip"
+							android:layout_weight="1" android:lines="1"
+							android:layout_height="wrap_content" android:gravity="center_vertical"
+							android:marqueeRepeatLimit="marquee_forever" android:ellipsize="marquee" />
+					</LinearLayout>
+					
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_horizontal">
+						<Spinner android:layout_height="match_parent" android:id="@+id/spinnerRecorder"
+							android:layout_width="wrap_content" android:layout_weight="1" />
+						<Button android:text="@string/schedule" android:id="@+id/action_call_schedule"
+							android:layout_width="wrap_content" android:onClick="onClick"
+							android:lines="1" android:layout_height="match_parent"
+							android:gravity="center_vertical" android:layout_gravity="center_horizontal"/>
+
+						<Button android:text="@string/shortcut" android:id="@+id/action_make_call_shortcut"
+							android:layout_width="wrap_content" android:onClick="onClick"
+							android:lines="1" android:layout_height="match_parent"
+							android:gravity="center_vertical" android:layout_gravity="center_horizontal"/>
+					</LinearLayout>	
+					
+					<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+					android:text="@string/tips"/>
+				</LinearLayout>
+
+
+
+
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:orientation="vertical">
+
+					<TextView android:layout_height="wrap_content"
+						android:text="@string/message" android:layout_width="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:id="@+id/textView2" android:layout_gravity="center_horizontal"></TextView>
+					<EditText android:id="@+id/edit_message" android:hint="message"
+						android:layout_height="wrap_content" android:layout_width="match_parent"
+						android:lines="3" android:inputType="textCapSentences|textMultiLine|textLongMessage" />
+					<TextView android:layout_height="wrap_content"
+						android:text="@string/message_option" android:layout_width="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:id="@+id/textView2" android:layout_gravity="center_horizontal" />
+					<RadioGroup android:gravity="center_vertical|center_horizontal|center"
+						android:layout_height="wrap_content" android:id="@+id/msgTypeGroup"
+						android:layout_width="match_parent" android:orientation="horizontal">
+						<RadioButton android:layout_height="wrap_content"
+							android:layout_width="wrap_content" android:checked="true"
+							android:text="@string/received" android:id="@+id/receivedSmsRadio" />
+						<RadioButton android:layout_height="wrap_content"
+							android:layout_width="wrap_content" android:text="@string/sent"
+							android:layout_marginLeft="10dip" android:id="@+id/sentSmsRadio" />
+					</RadioGroup>
+					<RadioGroup android:layout_height="wrap_content"
+						android:gravity="center_vertical|center_horizontal|center"
+						android:layout_width="match_parent" android:orientation="horizontal"
+						android:id="@+id/readTypeRadioGroup">
+						<RadioButton android:text="@string/unread" android:id="@+id/unreadRadio"
+							android:layout_height="wrap_content" android:layout_width="wrap_content"
+							android:checked="true" />
+						<RadioButton android:layout_height="wrap_content"
+							android:layout_width="wrap_content" android:id="@+id/readRadio"
+							android:text="@string/read" android:layout_marginLeft="10dip"
+							android:checked="false" />
+					</RadioGroup>
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+						<CheckBox android:id="@+id/check_sms_notif"
+							android:layout_width="0dip" android:layout_weight="1"
+							android:lines="1" android:layout_height="wrap_content"
+							android:gravity="center_vertical" android:marqueeRepeatLimit="marquee_forever"
+							android:ellipsize="marquee" android:text="@string/received_sms" />
+
+						<Button android:text="@string/schedule" android:id="@+id/action_sms_schedule"
+							android:layout_width="0dip" android:onClick="onClick" android:layout_weight="0.5"
+							android:lines="1" android:layout_height="match_parent"
+							 />
+							
+						<Button android:text="@string/shortcut" android:id="@+id/action_make_sms_shortcut"
+							android:layout_width="0dip" android:onClick="onClick"
+							android:lines="1" android:layout_height="match_parent"  android:layout_weight="0.5"
+							/>
+							
+					</LinearLayout>
+					<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+					android:text="@string/tips"/>
+
+				</LinearLayout>
+
+			</ViewSwitcher>
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout android:id="@+id/ad_container"
+		android:layout_height="wrap_content" android:gravity="top"
+		android:layout_width="fill_parent">
+	</LinearLayout>
+
+
+
+</LinearLayout>

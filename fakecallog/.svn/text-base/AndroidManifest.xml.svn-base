@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.baole.fakelog"
+    android:versionCode="7"
+    android:versionName="0.94" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_MMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+
+        <!-- Admob -->
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:name="com.google.ads.AdActivity" />
+
+        <!-- Used for install referrer tracking -->
+        <receiver
+            android:exported="true"
+            android:name="com.google.android.apps.analytics.AnalyticsReceiver" >
+            <intent-filter >
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:name=".FakeLogActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".ContactPickerActivity" />
+
+        <service
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:name=".fLogsService" >
+            <intent-filter >
+                <action android:name=".fLogsMsg" >
+                </action>
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".service.ScheduleReceiver" >
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.anttek.coverflow.ConverFlowActivity" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name="com.anttek.phone.InCallScreen"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent">#00000000</color>
+	<color name="black">#000000</color>
+
+	<color name="unselected_color">#FFFFFF</color>
+	<color name="selected_color">#FF0000</color>
+	
+    <color name="btn_background_background_start">#00000000</color>
+    <color name="btn_background_background_end">#00000000</color>
+    <color name="btn_background_background_item_pressed_start">#FF7F00</color>
+    <color name="btn_background_background_item_pressed_end">#EE7600</color>
+	
+</resources>

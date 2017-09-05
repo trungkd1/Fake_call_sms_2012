@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Log Me</string>
+    <string name="call_log">Call Logs</string>
+    <string name="messages">Messages</string>
+    <string name="manages">Manages</string>
+    <string name="pro">Pro</string>
+    <string name="caller_id">Caller ID:</string>
+    <string name="pick">Pick</string>
+    <string name="when">When? in next </string>
+    <string name="duration">Duration?</string>
+    <string name="call_type">Call type?</string>
+    <string name="incoming">Incoming</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="missed">Missed</string>
+    <string name="missed_call_notification">Missed call notification</string>
+    <string name="write_call_log">Write Call Log</string>
+    <string name="message">Message?</string>
+    <string name="message_option">Message Option?</string>
+    <string name="received">Received</string>
+    <string name="sent">Sent</string>
+    <string name="unread">Unread</string>
+    <string name="read">Read</string>
+    <string name="received_sms">Received SMS notif</string>
+    <string name="wite_sms">Write SMS</string>
+    <string name="normal">Normal</string>
+    <string name="schedule">Create</string>
+    <string name="shortcut">Shortcut</string>
+    <string name="scheduled_items">Scheduled Items</string>
+    <string name="message_content">Message_content</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="notification">Notification</string>
+    <string name="vibration">Vibration</string>
+    <string name="enable_other_preference">Check to use custom ringtone and vibrator</string>
+    <string name="select_faked_call_image">In Conversation Screen</string>
+    <string name="select_image">Select Image</string>
+    <string name="clear_all_schedule_overtime">auto-clear items that pass scheduled time</string>
+    <string name="clear_schedule">Clear old items</string>
+    <string name="ringtone_preference">Ringtone Preferences</string>
+    <string name="select_ringtone">Select Ringtone</string>
+    <string name="sms">SMS Preference</string>
+    <string name="call">Call Preference</string>
+    <string name="name">Name:</string>
+    <string name="record_new_voice">Record new voice</string>
+    <string name="play_record">Play</string>
+    <string name="stop">Stop</string>
+    <string name="save_record">Save</string>
+    <string name="cancel_record">Cancel</string>
+    <string name="click_record">Click here to Record</string>
+    <string name="invalid_number_msg">Invalid number or message</string>
+    <string name="invalid_number">Invalid number</string>
+    <string name="invalid_duration">Invalid duration</string>
+    <string name="load_audio_failed">Can not load audio file</string>
+    <string name="cannot_save_audio">Can not save audio file</string>
+    <string name="add_new_audio">Add new record successfully</string>
+    <string name="record_audio">Record audio</string>
+    <string name="name_is_empty">Name is empty, sorry</string>
+    <string name="no_audio_found">No audio found. Audio is available only on PRO
+		version. Click
+		above button to purchase</string>
+    <string name="voice">Audio</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="tips">Select an audio to fake incoming call. Name and
+		Duration are used
+		for fake Call Log or SMS Log. Touch Create to make a
+		log entry or
+		schedule a log, fake call in the feature. Audio fake is
+		available on
+		Pro version only\n</string>
+    <string name="create_shortcut_msg">Create shortcut for one-click fake call/sms.
+		Purchase PRO version
+		to enjoy it. Do you want to purchase PRO version
+		from Market now?
+	</string>
+    <string name="voice_support_msg">Record audio is used for audio playback during fake
+		call. Purchase
+		PRO version to enjoy it. Do you want to purchase PRO
+		version from
+		Market now?</string>
+    <string name="purchase_">Purchase (0.99EUR)</string>
+    <string name="shortcut_msg">Shortcut for selected parameters is created. Click
+		on shortcut to
+		enjoy faking</string>
+    <string name="take_call">Answer</string>
+    <string name="decline_call">Ignore</string>
+    <string name="proximity_setting">Proximity Detector</string>
+    <string name="proximity_setting_sum">How many time proximity sensor detects your
+		movement.</string>
+    <string name="proximity_sensor">Maximum Proximity Sensor Input</string>
+    <string name="proximity_sensor_title">Using Proximity Sensor</string>
+    <string name="proximity_sensor_guide">Experimental feature (not work on all phones). This option uses
+		the Proximity Sensor which is
+		generally on the top left corner of your
+		device. If not, please check
+		your phone guide to find where it is. This
+		is the place where you will
+		wave your hand to activate a fake call/sms.
+		You can change the maximum
+		for sensor inputs in the setting. Please do
+		not make bad comment this app
+		because of this feature. </string>
+    <string name="proximity_sensor_remember">I remember</string>
+    <string name="proximity_sensor_close">Show in next time</string>
+    <string name="proximity_sensor_close_trial">Fake with proximity sensor inputs is free 3 times.
+		Purchase PRO
+		version to enjoy unlimit. Do you want to purchase PRO
+		version
+		from
+		Market now?</string>
+    <string name="buy_pro">Buy Pro</string>
+    <string name="other">Other</string>
+    <string name="change_logs">Change Logs</string>
+    <string name="comment">Comment (Market)</string>
+    <string name="report_problem">Contact us (Email)</string>
+    
+    <string name="dial_number">Number to be dialed</string>
+    <string name="dial_number_sum">Dial this number to open SecretBox</string>
+    <string name="hide_icon_enable">Show app\'s icon in Launcher</string>
+    <string name="hide_icon_disable">Hide app\'s icon from Launcher</string>
+    <string name="hide_icon_sum">App\'s icon will be removed from Launcher/Drawer</string>
+    <string name="hide_icon_enable_warning_msg">App\'s icon will be shown in Launcher/Drawer after rebooting your phone. Do it now?</string>
+    <string name="hide_icon_disable_warning_msg">App\'s icon will be removed. The icon will be removed from Launcher/Drawer after rebooting your phone. You should dial \'%s\' to open this app. Do it now?</string>
+    <string name="hide_icon_ads">The present of this app\'s icon may make you feel uncomfortable. Hide it now?</string>
+
+    <string name="fake_screen_pro_notification">This screen available only on Pro version!</string>
+    <string name="ice_cream_sandwich_notification">Only ice cream sandwich version</string>
+</resources>

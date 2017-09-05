@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+		android:gravity="center_horizontal" android:orientation="vertical">
+		<TextView android:layout_height="wrap_content" android:text="Voice Call"
+			android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_marginBottom="5dip"
+			android:layout_width="match_parent" android:gravity="center_horizontal"></TextView>
+		<ImageView android:layout_height="@dimen/icon_size" android:id="@+id/imageView1"
+			android:src="@drawable/ic_no_photo" android:layout_width="@dimen/icon_size"
+			android:layout_gravity="center_horizontal" android:scaleType="fitCenter"/>
+			
+			<TextView android:layout_width="fill_parent"
+				android:textSize="30dip" android:layout_height="wrap_content"
+				android:gravity="center" android:id="@+id/textNumber" android:text="x"/>
+			<TextView android:layout_width="fill_parent"
+				android:textSize="30dip" android:layout_height="wrap_content"
+				android:gravity="center" android:id="@+id/textName" android:text="y"/>
+	</LinearLayout>
+
+	<com.anttek.widgets.InCallControls2
+		android:id="@+id/inCallControls" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	
+	<ImageView android:id="@+id/dropHangup"
+		android:background="@drawable/grey_bottom_gradient"
+		android:scaleType="center"
+		android:src="@drawable/ic_in_call_touch_end"
+
+		android:visibility="gone" 
+		android:layout_marginBottom="0dip"
+		android:layout_gravity="center_horizontal|bottom"
+		
+		android:layout_width="fill_parent" android:layout_height="100dip" />
+		
+	<ImageView android:id="@+id/dropAnswer"
+		android:background="@drawable/grey_top_gradient"
+		android:scaleType="center"
+		android:src="@drawable/ic_in_call_touch_answer"
+
+		android:visibility="gone" 
+		android:layout_marginTop="0dip"
+		android:layout_gravity="center_horizontal|top"
+		
+		android:layout_width="fill_parent" android:layout_height="100dip" />
+		
+	<ImageView android:id="@+id/dropHold" 
+		android:src="@drawable/ic_in_call_touch_hold" 
+		android:background="@drawable/grey_right_gradient"
+		android:scaleType="center"
+
+		android:visibility="gone" 
+		android:layout_marginRight="0dip"
+		android:layout_gravity="right|center_vertical"
+		
+		android:layout_width="75dip" android:layout_height="fill_parent" />
+		
+	
+	<FrameLayout android:id="@+id/callInfoPanel"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+		
+</FrameLayout>

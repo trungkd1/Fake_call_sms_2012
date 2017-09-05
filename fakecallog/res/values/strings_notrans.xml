@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="PREF_KEY_BUY_PRO">PREF_KEY_BUY_PRO</string>
+    <string name="PREF_KEY_CHANGE_LOGS">PREF_KEY_CHANGE_LOGS</string>
+    <string name="PREF_KEY_COMMENT">PREF_KEY_COMMENT</string>
+    <string name="PREF_KEY_REPORT_PROBLEM">PREF_KEY_REPORT_PROBLEM</string>
+    <string name="ad_id">a14e141a4260966</string>
+    <string name="app_guard">App Guard</string>
+    <string name="pro_package">org.baole.fakelogpro2</string>
+    <string name="support_email_subject">[Fake Log] </string>
+    <string name="email_antteksupport">android.trans@gmail.com</string>
+
+</resources>

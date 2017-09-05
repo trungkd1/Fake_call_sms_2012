@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vn.lmchanh.lib.widget.gesture.GestureRootLinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layout_on_off"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<FrameLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:id="@+id/text_on_off_status"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:textStyle="bold" />
+
+		<RelativeLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<vn.lmchanh.lib.widget.gesture.widget.GestureImageView
+				android:id="@+id/ges_img_on" android:layout_width="60dp"
+				android:layout_height="45dp" android:layout_alignParentLeft="true"
+				android:src="@drawable/unlock" android:scaleType="centerInside" />
+
+			<vn.lmchanh.lib.widget.gesture.widget.GestureImageView 
+				android:id="@+id/ges_img_off" android:layout_width="60dp"
+				android:layout_height="45dp" android:layout_alignParentRight="true"
+				android:src="@drawable/cancel" android:scaleType="centerInside" />
+				
+		</RelativeLayout>
+
+	</FrameLayout>
+
+</vn.lmchanh.lib.widget.gesture.GestureRootLinearLayout>

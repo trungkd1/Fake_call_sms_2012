@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sms_utils/!svn/ver/264/fakelog/trunk/fakecallog
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms_utils/!svn/ver/215/fakelog/trunk/fakecallog/default.properties
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms_utils/!svn/ver/5/fakelog/trunk/fakecallog/README.txt
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sms_utils/!svn/ver/238/fakelog/trunk/fakecallog/build.bat
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms_utils/!svn/ver/238/fakelog/trunk/fakecallog/local.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms_utils/!svn/ver/283/fakelog/trunk/fakecallog/AndroidManifest.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sms_utils/!svn/ver/238/fakelog/trunk/fakecallog/build.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms_utils/!svn/ver/283/fakelog/trunk/fakecallog/project.properties
+END
+buildscript.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms_utils/!svn/ver/238/fakelog/trunk/fakecallog/buildscript.sh
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms_utils/!svn/ver/215/fakelog/trunk/fakecallog/.project
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms_utils/!svn/ver/238/fakelog/trunk/fakecallog/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sms_utils/!svn/ver/242/fakelog/trunk/fakecallog/.classpath
+END

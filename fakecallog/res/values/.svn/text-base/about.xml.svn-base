@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="about_description">Fake call logs, message logs, also incoming call with audio</string>
+	<string name="about_email"></string>
+	<string name="about_website">http://apps.baole.org</string>
+	<string name="about_ok">OK</string>
+
+	<string-array name="about_names">
+		<item>Mr. Faker</item>
+		<item>Mr. Faker Pro</item>
+		<item>Call Filter</item>
+		<item>Call Filter Pro</item>
+		<item>Anti SMS Spam and Private Box</item>
+		<item>Anti SMS Spam and Private Box Pro</item>
+	</string-array>
+
+	<string-array name="about_packages">
+		<item>org.baole.fakelog</item>
+		<item>org.baole.fakelogpro2</item>
+		<item>dmate.callfilter</item>
+		<item>dmate.cfpro2</item>
+		<item>org.baole.app.antismsspam</item>
+		<item>org.baole.app.asspro</item>
+	</string-array>
+
+	<string-array name="about_descriptions">
+		<item>Fake incoming call with voice, fake call logs, message logs</item>
+		<item>Fake incoming call with voice, fake call logs, message logs</item>
+		<item>Filter unwanted calls and texts for free</item>
+		<item>Filter unwanted calls and texts for free</item>
+		<item>Blocked texts, password-protected secret Messaging Box</item>
+		<item>Blocked texts, password-protected secret Messaging Box</item>
+	</string-array>
+
+	<string-array name="about_prices">
+		<item>Free</item>
+		<item>EUR0.99</item>
+		<item>Free</item>
+		<item>EUR0.99</item>
+		<item>Free</item>
+		<item>EUR01.39</item>
+	</string-array>
+
+	<string-array name="about_urls">
+		<item>https://market.android.com/details?id=org.baole.fakelog</item>
+		<item>https://market.android.com/details?id=org.baole.fakelogpro2</item>
+		<item>https://market.android.com/details?id=dmate.callfilter</item>
+		<item>https://market.android.com/details?id=dmate.cfpro2</item>
+		<item>https://market.android.com/details?id=org.baole.app.antismsspam</item>
+		<item>https://market.android.com/details?id=org.baole.app.asspro</item>
+	</string-array>
+
+	<string-array name="about_videos">
+		<item>https://market.android.com/details?id=org.baole.fakelog</item>
+		<item>https://market.android.com/details?id=org.baole.fakelogpro2</item>
+		<item>https://market.android.com/details?id=dmate.callfilter</item>
+		<item>https://market.android.com/details?id=dmate.cfpro2</item>
+		<item>https://market.android.com/details?id=org.baole.app.antismsspam</item>
+		<item>https://market.android.com/details?id=org.baole.app.asspro</item>
+	</string-array>
+
+	<array name="about_icons">
+		<item>@drawable/ic_mr_faker</item>
+		<item>@drawable/ic_mr_faker</item>
+		<item>@drawable/ic_call_filter</item>
+		<item>@drawable/ic_call_filter</item>
+		<item>@drawable/ic_smsanti_spam</item>
+		<item>@drawable/ic_smsanti_spam</item>
+	</array>
+
+
+
+</resources>

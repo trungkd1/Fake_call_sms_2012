@@ -1,0 +1,50 @@
+<h1>Change Logs</h1>
+
+<h4>V 1.5</h4>
+<ul>
+	<li>Add more incoming fake screens</li>
+	<li>Hide app's icon from Launcher/Drawer (Pro only)</li>
+</ul>
+
+
+<h4>V 1.4</h4>
+<ul>
+	<li>Fix missing text notification</li>
+	<li>Fix bug on deleting scheduled item</li>
+	<li>Fix button alignment incorrect on Galaxy Tab</li>
+</ul>
+
+<h4>V 1.3</h4>
+<ul>
+	<li>Improve proximity sensor detection</li>
+	<li>Fix FC on startup on Huawei phone</li>
+</ul>
+
+<h4>V 1.2</h4>
+<ul>
+	<li>Proximity sensor feature</li>
+</ul>
+
+<h4>V 1.1</h4>
+<ul>
+	<li>Fix minor errors</li>
+</ul>
+
+<h4>V 1.0</h4>
+<ul>
+	<li>Fix fake log in the past time</li>
+	<li>Fix FC on wrong duration input</li>
+	<li>Native slider to answer/reject a call</li>
+	<li>Added shortcut to one-click fake</li>
+	<li>Ads support in free version and Pro without ads</li>
+	<li>Add notification</li>
+	<li>Fix FC on wrong duration input</li>
+	<li>Fix FC on wrong duration input</li>
+	<li>Fix FC on wrong duration input</li>
+</ul>
+
+<h4>V 0.9</h4>
+<ul>
+	<li>Initial release</li>
+</ul>
+

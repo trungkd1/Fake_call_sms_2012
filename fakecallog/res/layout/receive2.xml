@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="@drawable/receive2">
+	<LinearLayout android:layout_width="match_parent"
+		android:orientation="vertical" android:layout_height="0dip"
+		android:layout_weight="1">
+
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_weight="0.3" android:gravity="bottom"
+			android:layout_width="match_parent" android:layout_height="0dip">
+			<TextView android:layout_width="fill_parent"
+				android:gravity="right" android:layout_marginRight="50dip"
+				android:textSize="20dip" android:layout_height="wrap_content"
+				android:text="abc" android:id="@+id/textCount" />
+
+		</LinearLayout>
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+		android:gravity="center_horizontal" android:orientation="vertical">
+		<ImageView android:layout_height="@dimen/icon_size" android:id="@+id/imageView1"
+			android:src="@drawable/ic_no_photo" android:layout_width="@dimen/icon_size"
+			android:layout_gravity="center_horizontal" android:scaleType="fitCenter"/>
+			
+			<TextView android:layout_width="fill_parent"
+				android:textSize="30dip" android:layout_height="wrap_content"
+				android:gravity="center" android:id="@+id/textName" android:text="y"/>
+
+			<TextView android:layout_width="fill_parent"
+				android:textSize="30dip" android:layout_height="wrap_content"
+				android:gravity="center" android:id="@+id/textNumber" android:text="x"/>
+	</LinearLayout>
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="0dip" android:layout_weight="0.44">
+
+		<ImageView android:layout_width="0dip"
+			android:layout_height="85dip" android:layout_weight="1" />
+			
+		<ImageView android:layout_width="0dip" android:id="@+id/imageEndcallRecieve"
+			android:onClick="onClick"
+			android:layout_height="85dip" android:layout_weight="1" />
+
+		<ImageView android:layout_width="0dip"
+			android:layout_height="85dip" android:layout_weight="1" />
+
+	</LinearLayout>
+</LinearLayout>

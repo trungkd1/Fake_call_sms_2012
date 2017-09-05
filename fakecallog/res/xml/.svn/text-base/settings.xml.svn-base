@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="General" >
+
+        <Preference
+            android:key="IncomingImagePref"
+            android:summary="@string/select_image"
+            android:title="@string/select_faked_call_image" />
+
+        <EditTextPreference
+            android:defaultValue="3"
+            android:inputType="number"
+            android:key="proximity"
+            android:summary="@string/proximity_setting_sum"
+            android:title="@string/proximity_setting" />
+
+        <Preference
+            android:key="hide_icon"
+            android:summary="@string/hide_icon_sum"
+            android:title="@string/hide_icon_enable" />
+
+        <EditTextPreference
+            android:defaultValue="555"
+            android:dependency="hide_icon"
+            android:inputType="phone"
+            android:key="dial_number"
+            android:summary="@string/dial_number_sum"
+            android:title="@string/dial_number" >
+        </EditTextPreference>
+        
+        <CheckBoxPreference
+            android:disableDependentsState="false"
+            android:key="ClearSchedulePref"
+            android:summary="@string/clear_all_schedule_overtime"
+            android:title="@string/clear_schedule" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/sms" >
+
+        <CheckBoxPreference
+            android:disableDependentsState="false"
+            android:key="SMSPref"
+            android:summary="@string/enable_other_preference"
+            android:title="Custome" />
+
+        <CheckBoxPreference
+            android:dependency="SMSPref"
+            android:disableDependentsState="false"
+            android:key="VirationSMSPref"
+            android:summaryOff="Off"
+            android:summaryOn="On"
+            android:title="@string/vibration" />
+
+        <RingtonePreference
+            android:dependency="SMSPref"
+            android:key="RingtoneSMS"
+            android:ringtoneType="notification"
+            android:summary="@string/select_ringtone"
+            android:title="@string/ringtone_preference" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/call" >
+
+        <CheckBoxPreference
+            android:disableDependentsState="false"
+            android:key="CallPref"
+            android:summary="@string/enable_other_preference"
+            android:title="Custom" />
+
+        <CheckBoxPreference
+            android:dependency="CallPref"
+            android:disableDependentsState="false"
+            android:key="VirationCallPref"
+            android:summary="On"
+            android:title="@string/vibration" />
+
+        <RingtonePreference
+            android:dependency="CallPref"
+            android:key="RingtoneCall"
+            android:ringtoneType="ringtone"
+            android:summary="@string/select_ringtone"
+            android:title="@string/ringtone_preference" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/other" >
+
+        <Preference
+            android:key="@string/PREF_KEY_CHANGE_LOGS"
+            android:title="@string/change_logs" />
+
+        <Preference
+            android:key="@string/PREF_KEY_REPORT_PROBLEM"
+            android:title="@string/report_problem" />
+
+        <Preference
+            android:key="@string/PREF_KEY_COMMENT"
+            android:title="@string/comment" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

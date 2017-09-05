@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms_utils/!svn/ver/264/fakelog/trunk/fakecallog/src/org/baole/fakelog
+END
+ScheduledItemActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sms_utils/!svn/ver/220/fakelog/trunk/fakecallog/src/org/baole/fakelog/ScheduledItemActivity.java
+END
+FakeLogActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sms_utils/!svn/ver/264/fakelog/trunk/fakecallog/src/org/baole/fakelog/FakeLogActivity.java
+END
+ContactPickerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sms_utils/!svn/ver/68/fakelog/trunk/fakecallog/src/org/baole/fakelog/ContactPickerActivity.java
+END
+ImageSwitcherCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sms_utils/!svn/ver/283/fakelog/trunk/fakecallog/src/org/baole/fakelog/ImageSwitcherCall.java
+END
+VoiceManagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sms_utils/!svn/ver/215/fakelog/trunk/fakecallog/src/org/baole/fakelog/VoiceManagerActivity.java
+END
+WrappedFakeLogActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sms_utils/!svn/ver/264/fakelog/trunk/fakecallog/src/org/baole/fakelog/WrappedFakeLogActivity.java
+END
+PreferencesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sms_utils/!svn/ver/264/fakelog/trunk/fakecallog/src/org/baole/fakelog/PreferencesActivity.java
+END
+ShortcutActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sms_utils/!svn/ver/63/fakelog/trunk/fakecallog/src/org/baole/fakelog/ShortcutActivity.java
+END
+MyArrayAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sms_utils/!svn/ver/42/fakelog/trunk/fakecallog/src/org/baole/fakelog/MyArrayAdapter.java
+END
+FakeCallPageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sms_utils/!svn/ver/283/fakelog/trunk/fakecallog/src/org/baole/fakelog/FakeCallPageActivity.java
+END
+NewVoiceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sms_utils/!svn/ver/215/fakelog/trunk/fakecallog/src/org/baole/fakelog/NewVoiceActivity.java
+END
